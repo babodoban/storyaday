@@ -44,9 +44,14 @@ ul.sidenav li a:hover:not(.active) {
 }
 
 div.content {
+  color: gray;
   margin-left: 25%;
   padding: 1px 16px;
   height: 1000px;
+}
+
+div.content h2 {
+  color: black;  
 }
 
 @media screen and (max-width: 900px) {

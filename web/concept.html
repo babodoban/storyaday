@@ -2,27 +2,37 @@
 <html>
 
 <head>
-  <title>하루 한 편</title>
+  <title>하루 한 편 / 미디어 방향성</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <h1><a href="index.html">하루 한 편</a></h1>
-  <div id="grid">
-    <ul>
-      <li><a href="concept.html">기본 컨셉</a></li>
-      <li><a href="text_type.html">텍스트 중심</a></li>
-      <li><a href="image_type.html">이미지 중심</a></li>
-      <li><a href="video_type.html">동영상 중심</a></li>
-    </ul>
-    <div id="article">
-      <h2>기본 컨셉</h2>
-      <p>
-        00시에 올라온 140자의 글을 이어 1시간 마다 가장 많은 추천을 받은 한 문장이 다음 이야기가 된다. 하루, 24시간이 지나면 한 편의 단편 글이 완성된다.
-      </p>
-    </div>
+  <div class="title">
+    <a href="index.html">하루 한 편</a>
   </div>
-</body>
+  <ul class="sidenav">
+    <li><a href="concept.html">기본 컨셉</a></li>
+    <li><a href="text_type.html">텍스트 방향성</a></li>
+    <li><a href="media_type.html">미디어 방향성</a></li>
+    <li><a href="tech_type.html">테크 방향성</a></li>
+    <li><a class="active" href="company.html">꿈꾸는 회사</a></li>
+  </ul>
+  <div class="content">
+    <h2>한 시간 마다 이어지는 이야기 놀이</h2>
+    <ol>
+      <li>00시가 되면 140자 내의 시제가 올라온다.</li>
+      <li>사용자들은 01시까지 그 다음 이어질 이야기들을 만든다.</li>
+      <li>00~01시까지 1시간 동안 가장 많은 '좋아요'를 받은 이야기가 그 다음 이야기가 된다.</li>
+      <li>이렇게 매시간마다 이야기가 이어져 하루가 지나면 25개의 이야기가 연결되 하나의 이야기가 된다.</li>
+    </ol>
+    <h2>기본적인 운영 방안</h2>
+    <ul>
+      <li>각 이야기는 최대 140자로 작성된다. (분량은 변경 가능)</li>
+      <li>'좋아요' 기능 외에 '신고' 기능이 있어 사용자들끼리 자체 검열이 진행되도록 한다.</li>
+      <li>(물론 이야기 흐름상 문제가 되지 않는 비속어, 성적인 표현은 살아남기를 기대한다.)</li>
+    </ul>
+  </div>
+  </body>
 
 </html>
